@@ -43,7 +43,7 @@ For example, to find all .txt files in your Documents directory and save the res
 
 - If you want to use the script from any directory (i.e. without specifying the full path), you can add the directory containing the script to your PATH environment variable in your Bash shell startup file (e.g. `~/.bashrc`). See the instructions above for more details. OR.
 
-- the best way is to copy file in the home directory. For example home directory of Gitbash on windows is ```c/users/yourusername```. Either you are using Windows or Unix you can cd into that directory like this: ```cd ~```. If you are using Windows there is a big possibility there wont be ```.bashrc``` file created jet. You should create it by yourself. from terminal ```touch .bashrc```. then paste ```alias findfls="$HOME/findfls.sh``` line into it and save. Now you can use ```findfls``` command from any directory.
+- the best way is to copy file in the home directory. For example home directory of Git Bash on Windows OS is in ```c/users/yourusername```. If you are using Windows Git Bash or Linux terminal, you can cd into that directory like this: ```cd ~```. If you are using Windows OS there is a big possibility there wont be ```.bashrc``` file created yet. You should create it by yourself. from your terminal: ```touch .bashrc```. then paste ```alias findfls="$HOME/findfls.sh"``` line into it and save. Now you can use ```findfls``` command from any directory.
 
 - If you want to change the default search depth (i.e. the number of levels of subdirectories to search), you can modify the `maxdepth` variable in the script.
 
